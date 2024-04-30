@@ -1,0 +1,24 @@
+/* CSS untuk styling tabel */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Menggabungkan border */
+  }
+  
+  th, td {
+    border: 1px solid black; /* Menentukan border */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Warna latar belakang header */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna latar belakang baris genap */
+  }
+  
+  tr:hover {
+    background-color: #ddd; /* Warna latar belakang saat dihover */
+  }
+  
